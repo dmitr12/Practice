@@ -134,7 +134,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\contacts.css" />
     <Content Include="Content\fonts.css" />
-    <Content Include="Content\index.css" />
+    <Content Include="Content\index_style.css" />
     <Content Include="Content\normalize.css" />
     <Content Include="Content\slick.css" />
     <Content Include="favicon.ico" />
@@ -154,6 +154,7 @@
     <Content Include="Scripts\jquery-3.4.1.slim.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.fancybox.min.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />

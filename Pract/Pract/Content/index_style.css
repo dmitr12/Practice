@@ -32,7 +32,7 @@ ul, li {
 }
 
 .menu a {
-    color: #323232;
+    color: white;
     font-size: 18px;
     line-height: 36px;
     border-bottom: transparent 2px solid;
@@ -56,12 +56,12 @@ ul, li {
 }
 
 .header_bottom {
-    /*background-color: #393939;*/
     padding: 15px 0;
+    background-color: #1b1b1b;
 }
 
 .header_phone, .header_mail {
-    color: #FFFFFFC7;
+    color: #FFFFFF;
     letter-spacing: 0.25px;
     line-height: 45px;
     transition: all .3s;
@@ -108,11 +108,12 @@ ul, li {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    margin-top:30px;
 }
 
 .slider_item {
     outline: none;
-    max-height:450px;
+    max-height: 450px;
 }
 
 .slider_item-content {
@@ -300,9 +301,9 @@ ul, li {
         color: #373636;
     }
 
-    .services__item-btn .default-btn:after {
+        .services__item-btn .default-btn:after {
             color: #fff;
-    }
+        }
 
 .services__item-link {
     color: #050505;
