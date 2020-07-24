@@ -1,46 +1,13 @@
 ﻿@{
     ViewBag.Title = "Home Page";
-    Layout = null;
 }
 
     <html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>Главная</title>
-        <link rel="stylesheet" href="../../Content/bootstrap.css">
-        <link rel="stylesheet" href="../../Content/fonts.css">
-        <link rel="stylesheet" href="../../Content/normalize.css">
-        <link rel="stylesheet" href="../../Content/slick.css">
-        <link rel="stylesheet" href="../../Content/index_style.css">
-
-
     </head>
     <body>
-        <header class="header">
-            <div class="header_top">
-                <div class="container">
-                    <div class="header_top-inner">
-                        <a class="header_phone" href="tel:375173773344375291511102375172022265375296566777">+375 (17) 377-33-44, +375 (29) 151-11-02, +375 (17) 202-22-65, +375 (29) 656-67-77</a>
-                        <a href="#" class="header_mail">svetomir2015@mail.ru</a>
-                    </div>
-                </div>
-            </div>
-            <div class="header_bottom">
-                <div class="container">
-                    <div class="header_bottom-inner">
-                        <nav class="menu">
-                            <ul>
-                                <li><a style="border-color: #FF7400" href="~/Home/Index">Главная</a></li>
-                                <li><a href="~/Home/About">О нас</a></li>
-                                <li><a href="#">Статьи</a></li>
-                                <li><a href="~/Home/Contact">Контакты</a></li>
-                                <li><a href="#">Прайс-лист</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </header>
         <section class="slider">
             <div class="container">
                 <div class="slider_items">
@@ -53,7 +20,6 @@
                                 Светомир предлагает световые и дизайнерские решения для праздничного и декоративного оформления
                                 зданий и прилегающей территории с использованием светодиодной и неоновой светотехники
                             </div>
-
                         </div>
                     </div>
                     <div class="slider_item">
@@ -79,12 +45,56 @@
                 </div>
             </div>
         </section>
-       
+        <section class="services">
+            <div class="container">
+                <div class="services__top">
+                    <div class="services__title-box">
+                        <div class="services-title">
+                            Наши услуги
+                        </div>
+                    </div>
+                </div>
+                <div class="rows services-items">
+                    <div class="services__item col-md-4">
+                        <img class="services__item-img" src="../../img/services-1.png">
+                        <div class="services__item-title">
+                            Светодиодные модули
+                        </div>
+                        <div class="services__item-text">
+                            Светодиодные модули – это специальные осветительные приборы, представляющие собой цельные конструкции, которые оснащены различными типами светодиодов — SMD 3528, SMD 5050, SMD 5630. Устройства могут иметь открытый корпус с функцией влагозащиты или без нее, а также изолированную герметичную оболочку.
+                        </div>
+                        <div class="services__item-btn">
+                            <a href="#" class="def_btn">Перейти</a>
+                        </div>
+                    </div>
+                    <div class="services__item col-md-4">
+                        <img class="services__item-img" src="../../img/services-2.png">
+                        <div class="services__item-title">
+                            Светодиодные ленты
+                        </div>
+                        <div class="services__item-text">
+                            Светодиодные ленты являются экономичным источником точечного света, способные давать потрясающий яркий свет. Освещение на основе светодиодных лент используется для контурного освещения, в ночных клубах, ресторанах, в подсветке автомобиля, в интерьере и светодизайне.
+                        </div>
+                        <div class="services__item-btn">
+                            <a href="#" class="def_btn">Перейти</a>
+                        </div>
+                    </div>
+                    <div class="services__item col-md-4">
+                        <img class="services__item-img" src="../../img/services-3.png">
+                        <div class="services__item-title">
+                            Новогодние фигуры
+                        </div>
+                        <div class="services__item-text">
+                            Мы все любим новогодние праздники за то, что все улицы города украшены невероятными световыми мотивами и светодиодными фигурами, которые создают атмосферу той самой новогодней сказки. Световые новогодние фигуры могут быть как уличные, так и использоваться для дома. В нашем ассортименте вы найдете новогодние световые фигуры различной конфигурации.
+                        </div>
+                        <div class="services__item-btn">
+                            <a href="#" class="def_btn">Перейти</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        @Scripts.Render("~/bundles/jquery")
-        @Scripts.Render("~/bundles/bootstrap")
-        <script src="../../Scripts/slick.min.js"></script>
-        <script src="../../Scripts/main.js"></script>
     </body>
     </html>
 

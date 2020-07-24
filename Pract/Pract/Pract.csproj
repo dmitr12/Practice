@@ -134,7 +134,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\contacts.css" />
     <Content Include="Content\fonts.css" />
-    <Content Include="Content\index_style.css" />
+    <Content Include="Content\index.css" />
     <Content Include="Content\normalize.css" />
     <Content Include="Content\slick.css" />
     <Content Include="favicon.ico" />

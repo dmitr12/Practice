@@ -1,44 +1,13 @@
 ﻿@{
     ViewBag.Title = "Contact";
-    Layout = null;
 }
     <html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>Контакты</title>
-        <link rel="stylesheet" href="../../Content/bootstrap.css">
-        <link rel="stylesheet" href="../../Content/fonts.css">
-        <link rel="stylesheet" href="../../Content/normalize.css">
-        <link rel="stylesheet" href="../../Content/slick.css">
-        <link rel="stylesheet" href="../../Content/index_style.css">
         <link rel="stylesheet" href="../../Content/contacts.css">
     </head>
     <body>
-        <header class="header">
-            <div class="header_top">
-                <div class="container">
-                    <div class="header_top-inner">
-                        <a class="header_phone" href="tel:375173773344375291511102375172022265375296566777">+375 (17) 377-33-44, +375 (29) 151-11-02, +375 (17) 202-22-65, +375 (29) 656-67-77</a>
-                        <a href="#" class="header_mail">svetomir2015@mail.ru</a>
-                    </div>
-                </div>
-            </div>
-            <div class="header_bottom">
-                <div class="container">
-                    <div class="header_bottom-inner">
-                        <nav class="menu">
-                            <ul>
-                                <li><a href="~/Home/Index">Главная</a></li>
-                                <li><a href="~/Home/About">О нас</a></li>
-                                <li><a href="#">Статьи</a></li>
-                                <li><a style="border-color: #FF7400" href="~/Home/Contact">Контакты</a></li>
-                                <li><a href="#">Прайс-лист</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </header>
         <section class="contacts">
             <div class="container">
                 <div class="row">
@@ -53,9 +22,9 @@
                             Телефоны:
                         </div>
                         <div class="item-text">
-                            +375(29) 151-11-02<br/>
-                            +375(17) 377-33-44<br/>
-                            +375(17) 202-22-65<br/>
+                            +375(29) 151-11-02<br />
+                            +375(17) 377-33-44<br />
+                            +375(17) 202-22-65<br />
                             +375(29) 656-67-77
                         </div>
                         <div class="item-title">
@@ -73,21 +42,51 @@
                     </div>
                     <div class="col-md-2"></div>
                     <div class="contact-item col-md-5">
-                        <div class="name-mail">
-                            <input type="text" name="name" placeholder="Имя" class="inp"/>
+                        <div class="item-title">
+                            Свяжитесь с нами:
+                        </div>
+                        <div class="row">
+                            <input type="text" name="name" placeholder="Имя" class="inp" />
+                        </div>
+                        <div class="row">
                             <input type="text" name="mail" placeholder="Электронный адрес" class="inp"/>
                         </div>
-                        <div class="txtarea">
-                            <textarea placeholder="Сообщение" class="inp">
-                        </textarea>
+                        <div class="row">
+                            <textarea class="inp msg" placeholder="Сообщение" rows="3" name="msg"></textarea>
+                        </div>
+                        <div class="row">
+                            <input class="mail_btn def_btn" type="submit" name="btn" value="Отправить" />
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="contact-item">
+                        <div class="item-title">
+                            Реквизиты:
+                        </div>
+                        <div class="item-text">
+                            ООО «СветомирБай»<br />
+                            Юр.адрес: 220015, г. Минск, ул. Пономаренко, д.35А, офис 701-<br />
+                            в ОАО «Белорусский Народный Банк»<br />
+                            г. Минск, пр. Независимости ,87а, код 765;<br />
+                            р/с BY75BLNB30120000084829000933,<br />
+                            БИК BLNBBY2X<br />
+                            УНП 192429612<br />
+                            тел. +375 17 3773344<br />
+                            +375 29 6566777<br />
+                            Почт. адр: 220089, г. Минск, ул. Гурского, д 39, к. 107<br />
+                            Директор – Гузенко Светлана Александровна, действующий на основании Устава.
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="contact-item col-md-12">
+                        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2351.190840132633!2d27.490378415859126!3d53.89281188009719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbdaac282c59d7%3A0xeeb29eb4865ee307!2z0YPQu9C40YbQsCDQn9C-0L3QvtC80LDRgNC10L3QutC-IDM1LCDQnNC40L3RgdC6IDIyMDAxNQ!5e0!3m2!1sru!2sby!4v1595593661306!5m2!1sru!2sby">
+                        </iframe>
+                    </div>
+
+                </div>
             </div>
         </section>
-        @Scripts.Render("~/bundles/jquery")
-        @Scripts.Render("~/bundles/bootstrap")
     </body>
-    
-    
     </html>

@@ -1,1 +1,49 @@
-﻿
+﻿<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../Content/bootstrap.css">
+    <link rel="stylesheet" href="../../Content/fonts.css">
+    <link rel="stylesheet" href="../../Content/normalize.css">
+    <link rel="stylesheet" href="../../Content/slick.css">
+    <link rel="stylesheet" href="../../Content/index.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header_top">
+            <div class="container">
+                <div class="header_top-inner">
+                    <a class="header_phone" href="tel:375173773344375291511102375172022265375296566777">+375 (17) 377-33-44, +375 (29) 151-11-02, +375 (17) 202-22-65, +375 (29) 656-67-77</a>
+                    <a href="~/Home/Contact" class="header_mail">svetomir2015@mail.ru</a>
+                </div>
+            </div>
+        </div>
+        <div class="header_bottom">
+            <div class="container">
+                <div class="header_bottom-inner">
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="~/Home/Index">Главная</a></li>
+                            <li><a href="~/Home/About">О нас</a></li>
+                            <li><a href="#">Статьи</a></li>
+                            <li><a href="~/Home/Contact">Контакты</a></li>
+                            <li><a href="#">Прайс-лист</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    @RenderBody();
+    <div class="footer">
+        <div class="container">
+            Copyright © Все права защищены.
+        </div>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    <script src="../../Scripts/slick.min.js"></script>
+    <script src="../../Scripts/main.js"></script>
+</body>
+
+
+</html>
