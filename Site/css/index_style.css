@@ -34,14 +34,13 @@ ul, li{
 .menu a{
     color: #323232;
     font-size: 18px;
-    padding: 0 16px;
     line-height: 36px;
-    border: transparent 1px solid;
+    border-bottom: transparent 2px solid;
     transition: all .3s;
 }
 
 .menu a:hover{
-    border: 1px solid #FF7400;
+    border-bottom: 2px solid #FF7400;
 }
 
 .menu li+li{

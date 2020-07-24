@@ -1,0 +1,93 @@
+﻿@{
+    ViewBag.Title = "Contact";
+    Layout = null;
+}
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Контакты</title>
+        <link rel="stylesheet" href="../../Content/bootstrap.css">
+        <link rel="stylesheet" href="../../Content/fonts.css">
+        <link rel="stylesheet" href="../../Content/normalize.css">
+        <link rel="stylesheet" href="../../Content/slick.css">
+        <link rel="stylesheet" href="../../Content/index_style.css">
+        <link rel="stylesheet" href="../../Content/contacts.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="header_top">
+                <div class="container">
+                    <div class="header_top-inner">
+                        <a class="header_phone" href="tel:375173773344375291511102375172022265375296566777">+375 (17) 377-33-44, +375 (29) 151-11-02, +375 (17) 202-22-65, +375 (29) 656-67-77</a>
+                        <a href="#" class="header_mail">svetomir2015@mail.ru</a>
+                    </div>
+                </div>
+            </div>
+            <div class="header_bottom">
+                <div class="container">
+                    <div class="header_bottom-inner">
+                        <nav class="menu">
+                            <ul>
+                                <li><a href="~/Home/Index">Главная</a></li>
+                                <li><a href="~/Home/About">О нас</a></li>
+                                <li><a href="#">Статьи</a></li>
+                                <li><a style="border-color: #FF7400" href="~/Home/Contact">Контакты</a></li>
+                                <li><a href="#">Прайс-лист</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="contacts">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-item col-md-5">
+                        <div class="item-title">
+                            Наш адрес:
+                        </div>
+                        <div class="item-text">
+                            Беларусь — Минск  ул. Пономаренко,  35А офис 701
+                        </div>
+                        <div class="item-title">
+                            Телефоны:
+                        </div>
+                        <div class="item-text">
+                            +375(29) 151-11-02<br/>
+                            +375(17) 377-33-44<br/>
+                            +375(17) 202-22-65<br/>
+                            +375(29) 656-67-77
+                        </div>
+                        <div class="item-title">
+                            Бухгалтерия:
+                        </div>
+                        <div class="item-text">
+                            +375 (44) 729-66-87
+                        </div>
+                        <div class="item-title">
+                            Email:
+                        </div>
+                        <div class="item-text">
+                            svetomir2015@mail.ru
+                        </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                    <div class="contact-item col-md-5">
+                        <div class="name-mail">
+                            <input type="text" name="name" placeholder="Имя" class="inp"/>
+                            <input type="text" name="mail" placeholder="Электронный адрес" class="inp"/>
+                        </div>
+                        <div class="txtarea">
+                            <textarea placeholder="Сообщение" class="inp">
+                        </textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+    </body>
+    
+    
+    </html>
