@@ -7,15 +7,18 @@
     <link rel="stylesheet" href="../../Content/fonts.css">
     <link rel="stylesheet" href="../../Content/normalize.css">
     <link rel="stylesheet" href="../../Content/slick.css">
-    <link rel="stylesheet" href="../../Content/index.css">
+    <link rel="stylesheet" href="../../Content/index_style.css">
 </head>
 <body>
     <header class="header">
         <div class="header_top">
             <div class="container">
-                <div class="header_top-inner">
-                    <a class="header_phone" href="tel:375173773344375291511102375172022265375296566777">+375 (17) 377-33-44, +375 (29) 151-11-02, +375 (17) 202-22-65, +375 (29) 656-67-77</a>
-                    <a href="~/Home/Contact" class="header_mail">svetomir2015@mail.ru</a>
+                <div class="header_top-inner row">
+                    <a class="header_phone col-md-7" href="tel:375173773344375291511102375172022265375296566777">+375 (17) 377-33-44, +375 (29) 151-11-02, +375 (17) 202-22-65, +375 (29) 656-67-77</a>
+                    <a href="~/Home/Contact" class="header_mail col-md-3">svetomir2015@mail.ru</a>
+                    <div style="text-align:right; margin-right:15px">
+                        <a href="~/Account/Login" class="admin">Админ</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -43,7 +46,7 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     <script src="../../Scripts/slick.min.js"></script>
-    <script src="../../Scripts/main.js"></script>
+    <script src="../../Scripts/file.js"></script>
 </body>
 
 

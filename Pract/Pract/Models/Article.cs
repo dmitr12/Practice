@@ -19,7 +19,10 @@ namespace Pract.Models
         public string ImageLink { get; set; }
 
         [Required]
-        [DataType(DataType.MultilineText)]
+        [Display(Name="Вступление")]
+        public string FirstStr { get; set; }
+
+        [Required]
         [Display(Name = "Содержимое статьи статьи (вставьте html-код)")]
         public string Content { get; set; }
 
@@ -27,5 +30,6 @@ namespace Pract.Models
         [DataType(DataType.Date)]
         [Display(Name="Дата")]
         public DateTime Date { get; set; }
+
     }
 }

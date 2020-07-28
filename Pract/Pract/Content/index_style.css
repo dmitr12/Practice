@@ -60,7 +60,7 @@ ul, li {
     background-color: #1b1b1b;
 }
 
-.header_phone, .header_mail {
+.header_phone, .header_mail, .admin {
     color: #FFFFFF;
     letter-spacing: 0.25px;
     line-height: 45px;
@@ -68,7 +68,7 @@ ul, li {
     position: relative;
 }
 
-    .header_phone:hover, .header_mail:hover {
+    .header_phone:hover, .header_mail:hover, .admin:hover {
         color: #FF7400;
     }
 
@@ -338,4 +338,3 @@ ul, li {
     border: 1px solid black;
     display: none;
 }
-

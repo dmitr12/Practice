@@ -135,3 +135,10 @@ D:\PracticeGit\Practice\Pract\Pract\bin\Microsoft.EntityFrameworkCore.Relational
 D:\PracticeGit\Practice\Pract\Pract\bin\EntityFramework.xml
 D:\PracticeGit\Practice\Pract\Pract\bin\EntityFramework.SqlServer.xml
 D:\PracticeGit\Practice\Pract\Pract\bin\Microsoft.EntityFrameworkCore.Relational.xml
+D:\PracticeGit\Practice\Pract\Pract\obj\Debug\Pract.Migrations.InitialCreate.resources
+D:\PracticeGit\Practice\Pract\Pract\obj\Debug\Pract.csproj.GenerateResource.cache
+D:\PracticeGit\Practice\Pract\Pract\obj\Debug\Pract.Migrations.ChangedArticleModel.resources
+D:\PracticeGit\Practice\Pract\Pract\bin\PagedList.dll
+D:\PracticeGit\Practice\Pract\Pract\bin\PagedList.Mvc.dll
+D:\PracticeGit\Practice\Pract\Pract\bin\PagedList.xml
+D:\PracticeGit\Practice\Pract\Pract\bin\PagedList.Mvc.xml

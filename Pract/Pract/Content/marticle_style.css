@@ -19,19 +19,14 @@
     margin-bottom: 10px;
 }
 
-.marticle-content{
-    letter-spacing: 0.1px;
-}
-
 .marticle-content {
+    letter-spacing: 0.1px;
     padding: 0px 30px 30px;
-    height: 120px;
-    overflow: hidden;
+    text-align: left;
 }
 
 .marticle-item-btn {
     position: absolute;
-    bottom: 40px;
     left: 0;
     right: 0;
 }

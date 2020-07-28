@@ -1,15 +1,23 @@
 ﻿
-@{
-    ViewBag.Title = "MoreArticleInfo";
-}
-
     <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <title>Статья</title>
+        <title>Удаление статьи</title>
         <link href="../../Content/marticle_style.css" rel="stylesheet" />
     </head>
     <body>
+        <h3 style="text-align:center; color:#FF7400">Вы действительно хотите удалить эту статью?</h3>
         <div class="container">
+            <div style="text-align:center">
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+
+                    <div class="form-actions no-color">
+                        <input type="submit" value="Удалить" class="def_btn" style="background-color:transparent; margin-right:20px" />
+                        <a href="~/Home/Article" class="def_btn" style="background-color:transparent">Назад</a>
+                    </div>
+                }
+            </div>
             <div class="marticle-item">
                 <div>
                     <img class="marticle-img" src="@ViewBag.Article.ImageLink" alt="Alternate Text" />
@@ -18,9 +26,7 @@
                     @ViewBag.Article.Name
                 </div>
                 <div id="contentOfArticlePage" class="marticle-content">
-                </div>
-                <div class="marticle-item-btn">
-                    <a href="~/Home/Article" class="def_btn">Назад</a>
+
                 </div>
             </div>
         </div>
@@ -39,4 +45,3 @@
         </script>
     </body>
     </html>
-
