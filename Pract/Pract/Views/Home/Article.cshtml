@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "Article";
+}
+
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Статьи</title>
+        <link href="../../Content/article.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="articles">
+            <div class="container">
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <a href="~/Home/CreateArticle" class="def_btn">Добавить статью</a>
+                }
+            <div class="articles">
+                <div class="rows article_items">
+    @foreach (Pract.Models.Article article in ViewBag.Articles)
+    {
+                    <div class="col-md-4 article-item">
+                        <div>
+                            <img class="article-img" src="@article.ImageLink" alt="Alternate Text" />
+                        </div>
+                        <div class="article-title">
+                            @article.Name
+                        </div>
+                        <div class="article-date">
+                            @article.Date.Day.@article.Date.Month.@article.Date.Year
+                        </div>
+                        <div class="article-content">
+                            @article.Content
+                        </div>
+                        <div style="font-size:24px; color:black; margin-bottom:20px;" href="#">...</div>
+                        <div class="article-item-btn">
+                            @Html.ActionLink("Подробнее","MoreArticleInfo", new {id=article.Id }, new {@class="def_btn" })
+                        </div>
+                    </div>
+    }
+                 </div>
+            </div> 
+            </div>
+        </div>
+    </body>
+    </html>

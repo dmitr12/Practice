@@ -1,0 +1,51 @@
+﻿.articles {
+    padding: 50px 0px 30px;
+}
+
+.article_items {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.article-img {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.article-title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #212020;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+
+.article-content, .article-date {
+    letter-spacing: 0.1px;
+}
+
+.article-content {
+    padding: 0px 30px 30px;
+    height:120px;
+    overflow:hidden;
+}
+
+.article-date {
+    margin-bottom: 10px;
+    color: #FF7400;
+}
+
+.article-item {
+    text-align: center;
+    padding: 30px 0px 80px;
+    position: relative;
+    box-shadow: 0px 7px 24.3px 2.7px rgba(255,116,0,0.14);
+}
+
+.article-item-btn {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+}

@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "MoreArticleInfo";
+}
+
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Статья</title>
+        <link href="../../Content/marticle.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="marticle-item">
+                <div>
+                    <img class="marticle-img" src="@ViewBag.Article.ImageLink" alt="Alternate Text" />
+                </div>
+                <div class="marticle-title">
+                    @ViewBag.Article.Name
+                </div>
+                <div class="marticle-content">
+                    @ViewBag.Article.Content
+                </div>
+                <div class="marticle-item-btn">
+                    <a href="~/Home/Article" class="def_btn">Назад</a>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
+
